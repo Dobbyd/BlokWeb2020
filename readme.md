@@ -63,10 +63,10 @@
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die ik gaat maken](images/screenshotcoca1) 
-![screenshot(s) die een goed beeld geven van de website die ik gaat maken](images/screenshotcoca2) 
-![screenshot(s) die een goed beeld geven van de website die ik gaat maken](images/screenshotcoca3) 
+![screenshot 1](https://i.imgur.com/YOpm4FU.jpg) 
+![screenshot 2](https://i.imgur.com/JzJEabk.jpg) 
+![screenshot 3](https://i.imgur.com/8QB8aFb.jpg) 
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schetsding2)
+![-Voorlopige BreakdownSchets-](https://i.imgur.com/bfjf3DZ.png)
