@@ -55,7 +55,8 @@
 
 ## Intake (week 1)
 
-**Mijn startniveau:** -Blauw-
+**Mijn startniveau:** -Blauw, ik heb kennis van code maar ik heb al zo lang niet gecodeerd (al helemaal niet met HTML en CSS)
+dat ik geen idee heb van mijn niveau. Ik verwacht uiteindelijk wel wat Rode Piste dingen te kunnen doen.-
 
 **Mijn focus:** -Surface Plane-
 
