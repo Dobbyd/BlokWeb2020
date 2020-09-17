@@ -37,15 +37,16 @@
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Ik heb moeite met het uitlijnen van text en plaatjes. Ik weet ook niet zo goed hoe ik het beste aan de navigatie kan beginnen. Ik heb vertrouwen in mijn Javascript skills maar met css voel ik me niet heel comfortabel. -
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Screenshot1](/images/Screenshot1 "screenshot1")
+![Screenshot2](/images/Screenshot2 "screenshot2")
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-In de meeting willen we vooral het uitlijnen van content en het responsive maken van de site bespreken.-
 
 ### Verslag van meeting
 
