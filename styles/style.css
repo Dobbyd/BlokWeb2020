@@ -2,4 +2,75 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+body{    margin: 0;
+        padding: 0;
+}
+ul{
+    list-style-type: none;
+   
+}
 
+section {
+    width:100%;
+    position: relative;
+   
+
+    
+}
+section:nth-of-type(1){
+    width:100%;
+    position: relative;
+    background-color: #F40009;
+     margin-bottom: 0;
+}
+section:nth-of-type(1) a{
+    width:100%;
+    position: relative;
+    background-color: #F40009;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    left: 36%;
+   
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:1.7em;
+    position:absolute;
+    display: block;
+    color: white;
+    min-width: 100%;
+    top:25%;
+    line-height: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.51);
+  
+}
+
+section:nth-of-type(1) h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:2em;
+    color: white;
+    min-width:40%;
+    max-width: 40%;
+    line-height: 1.5em;
+    justify-content: center;
+    align-content: center;
+}
+
+section img{
+   width: 100%;
+  height: auto;
+}
+
+section:nth-of-type(11) a {
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+}

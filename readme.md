@@ -6,8 +6,8 @@
 
 ## Bronnenlijst
 1. -bron 1-
-2. -bron 2-
-3. -...-
+2. --
+3. --
 
 
 
