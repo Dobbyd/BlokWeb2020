@@ -50,7 +50,9 @@
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Hierarchie qua h1 klopt niet helemaal, een h2 mag ook wanneer een h1 nog niet aanwezig is. Nog even goed kijken
+naar het uilijnen, vooral waarin een object genest is. Zou leuk zijn om de eerste image op de pagina van losse elementen op
+te bouwen, op het moment is dit een plaatje waar de tekst al instaat.-
 
 
 
