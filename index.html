@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="jouw naam">
@@ -15,81 +15,119 @@
     <script src="scripts/script.js"></script>
 </head>
 
-<body>
+<body class="main">
 
 
     <header>
         <nav>
-            <div>
-                <ul>
-                    <li><a href="index.html"> Menu </a>
-                    </li>
 
-                    <li> <a href="index.html"> COCA-COLA NEDERLAND </a>
-                    </li>
-                    <li> <a href="index.html"> Zoek </a>
-                    </li>
-                    <button>Theme</button>
-                </ul>
-            </div>
+            <ul>
+                <li><button tabindex="0"> Menu
+                    </button></li>
+                <!--                tabindex zodat het selecteerbaar is, buttons zijn dit niet van zichzelf  -->
+
+                <li> <a href="index.html"> Coca-Cola Nederland </a>
+                </li>
+                <li> <a href="index.html"> Zoek </a>
+                </li>
+                <li><button tabindex="0" class="unhideMenu">Theme</button></li>
+
+            </ul>
+            <ul>
+                <li> <a href="index.html"> Home </a>
+                </li>
+                <li> <a href="index.html"> Onze merken en verhalen </a>
+                </li>
+                <li> <a href="index.html"> Promoties en campagnes </a>
+                </li>
+                <li> <a href="index.html"> Duurzaamheid </a>
+                </li>
+                <li> <a href="index.html"> Vrije tijd </a>
+                </li>
+                <li> <a href="index.html"> Leer ons kennen </a>
+                </li>
+                <li> <a href="index.html" class="hideMenu"> Contact en faq </a>
+                </li>
+
+            </ul>
+
         </nav>
 
     </header>
     <main>
         <section>
-
-            <img src="images/deze-coca-cola-krijg-je-van-ons-header-image-mobile.jpg" alt="Cola Plaatje">
-            <a href="#ScrollSection">Meer lezen</a>
+            <h2>Coca Cola van Ons</h2>
+            <img src="images/deze-coca-cola-krijg-je-van-ons-header-image-mobile.jpg" alt="Deze Coca Cola Krijg Je Van Ons Actie">
+            <a href="#DuurzaamheidSection">Meer lezen</a>
             <!--    Scroll naar section met id ScrollSection -->
         </section>
 
-        <section id=ScrollSection>
+        <section id="DuurzaamheidSection">
             <!--    ID om te kunnen scrollen naar deze plek -->
-            <h1>DUURZAAMHEID</h1>
-            <img src="images/Duurzaamheid_dark.jpg" alt="Duurzaamheid Plaatje">
+            <h2>Duurzaamheid</h2>
+            <a href="article.html">
+                <img src="images/Duurzaamheid_dark.jpg" alt="Recycling icoon in de natuur">
+            </a>
         </section>
 
         <section>
-            <h1>NEEM CONTACT OP</h1>
-            <img src="images/neem-contact-op-coca-cola.jpg" alt="Neem contact op Plaatje">
+            <h2>Neem contact op</h2>
+            <a href="article.html">
+                <img src="images/neem-contact-op-coca-cola.jpg" alt="Twee vrienden drinken coca cola">
+            </a>
         </section>
 
         <section>
-            <h1>ONZE MERKEN</h1>
-            <img src="images/onze-merken-homepage.jpg" alt="Onze merken Plaatje">
+            <h2>Onze merken</h2>
+            <a href="article.html">
+                <img src="images/onze-merken-homepage.jpg" alt="Verschillende coca cola frisdranken naast elkaar">
+            </a>
         </section>
 
         <section>
-            <h1>LEER ONS KENNEN</h1>
-            <img src="images/Leeronskennen.jpg" alt="Leer ons kennen Plaatje">
+            <h2>Leer ons kennen</h2>
+            <a href="article.html">
+                <img src="images/Leeronskennen.jpg" alt="Coca Cola drinken met vrienden op de bank">
+            </a>
         </section>
 
         <section>
-            <h1>PROMOTIES EN CAMPAGNES</h1>
-            <img src="images/coca-cola-nederland-campagnes-promoties.jpg" alt="Promoties en campagnes Plaatje">
+            <h2>Promoties en campagnes</h2>
+            <a href="article.html">
+                <img src="images/coca-cola-nederland-campagnes-promoties.jpg" alt="Coca cola retro uithangbord">
+            </a>
         </section>
 
         <section>
-            <h1>WERKEN BIJ</h1>
-            <img src="images/Kominonsteam_dark.jpg" alt="Werken bij Plaatje">
+            <h2>Werken bij</h2>
+            <a href="article.html">
+                <img src="images/Kominonsteam_dark.jpg" alt="Vrouw in retro kleren drinkt coca cola">
+            </a>
         </section>
 
         <section>
-            <h1>FAQ</h1>
-            <img src="images/faq_light.jpg" alt="FAQ Plaatje">
+            <h2>Faq</h2>
+            <a href="article.html">
+                <img src="images/faq_light.jpg" alt="Vliegtuig met coca cola merk op de zijkant ">
+            </a>
         </section>
 
         <section>
-            <h1>PERS</h1>
-            <img src="images/persberichten-450x270.jpg" alt="Pers Plaatje">
+            <h2>Pers</h2>
+            <a href="article.html">
+                <img src="images/persberichten-450x270.jpg" alt="Schilderij van een mond met een coca cola fles">
+            </a>
         </section>
 
         <section>
-            <h1>HAVE FUN</h1>
-            <img src="images/havefun_1344x807.jpg" alt="Have fun Plaatje">
+            <h2>Have fun</h2>
+            <a href="article.html">
+                <img src="images/havefun_1344x807.jpg" alt="Twee jongeren kijken over hun schouder naar de camera">
+            </a>
         </section>
 
         <section>
+            <h2>Footer</h2>
             <a href="#ScrollSection">Volg ons</a>
             <a href="#ScrollSection">Merken</a>
             <a href="#ScrollSection">Ontdek andere landen</a>
@@ -102,4 +140,6 @@
     </footer>
 
     <script src=" scripts/script.js"></script>
-</body></html>
+</body>
+
+</html>

@@ -9,39 +9,29 @@ html {
     scroll-behavior: smooth;
 }
 
-.dark {
-    background-color: black;
-    color: white;
-}
-
-.light {
-    background-color: white !important;
-    color: black !important;
-    transition: 0.5s !important;
-}
 
 body {
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
+
 }
 
 body li {
     margin: auto;
 }
 
-div:nth-of-type(1) {
+nav {
     width: 100%;
     text-align: center;
 }
 
-button {
-    background-color: white;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 0.3em;
-    outline: none;
+
+
+button:focus {
+    outline: white solid 3px;
 }
 
-ul {
+ul:first-of-type {
     list-style-type: none;
     margin: 0;
     padding: 1em;
@@ -57,22 +47,91 @@ ul {
 
 }
 
-li {
+
+li:first-of-type button {
+    color: white;
+    background: none;
+    border: none;
     display: inline;
     position: relative;
     min-width: 5em;
     max-width: 20em;
     font-size: 0.8em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
 
 
 }
 
-li:nth-of-type(2) {
+li:nth-of-type(4) button {
+
+
+    display: inline;
+    position: relative;
+    min-width: 5em;
+    max-width: 20em;
+    font-size: 0.8em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+ul:first-of-type li:nth-of-type(3) {
+    color: white;
+    background: none;
+    display: inline;
+    position: relative;
+    min-width: 5em;
+    max-width: 20em;
+    font-size: 0.8em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+ul:first-of-type li:nth-of-type(2) {
 
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 0.7em;
+    text-transform: uppercase;
+
+
+}
+
+ul:nth-of-type(2) {
+    opacity: 0%;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    top: -100em;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    background-color: black;
+    transition: 0.7s;
+}
+
+ul:nth-of-type(2).listOn {
+    opacity: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    top: 2.3em;
+    transition: 0.7s;
+}
+
+ul:nth-of-type(2) li {
+
+    text-decoration: none;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1em;
+    line-height: 400%;
+    border-bottom: 1px solid grey;
 
 
 
@@ -88,27 +147,25 @@ li a {
 }
 
 
+/*-------------------landingspagina specifieke styling-------------------*/
 
-
-section {
+.main section {
     width: 100%;
     position: relative;
-
-
+    overflow: hidden;
 
 }
 
-section:nth-of-type(1) {
+.main section:first-of-type {
     width: 100%;
     position: relative;
-    background-color: #F40009;
-    margin-bottom: 0;
-    padding-bottom: 10px;
+    background-color: #df0a1c;
+    padding-bottom: 1em;
 }
 
-section:nth-of-type(1) a {
+.main section:first-of-type a {
     position: relative;
-    background-color: #F40009;
+    background-color: #df0a1c;
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -118,7 +175,7 @@ section:nth-of-type(1) a {
 
 }
 
-h1 {
+.main h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.7em;
@@ -127,35 +184,142 @@ h1 {
     color: white;
     min-width: 100%;
     top: 25%;
-    line-height: 1.5em;
+    line-height: 90%;
     text-align: center;
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.51);
+    text-transform: uppercase;
+    z-index: 1;
 
 }
 
-section:nth-of-type(1) h1 {
+.main section:first-of-type h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 2em;
     color: white;
     min-width: 40%;
     max-width: 40%;
-    line-height: 1.5em;
     justify-content: center;
     align-content: center;
 }
 
-section img {
+.main section img {
     width: 100%;
     height: auto;
+    transform: scale(1);
+    transition: 2s;
+
 }
 
-section:nth-of-type(11) a {
+.main section:last-of-type a {
     display: block;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     padding: 1em;
     background-color: black;
     color: white;
+    transition: 0.5s;
+}
+
+.main img:hover {
+    transform: scale(1.1);
+    transition: 4s;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.main section:last-of-type h2 {
+    clip: rect(0 0 0 0);
+}
+
+.main section:first-of-type h2 {
+    clip: rect(0 0 0 0);
+}
+
+/*verberg deze header visueel maar haalt het niet uit de pagina voor screenreaders */
+
+/*-------------------duurzaamheidspagina specifieke styling-------------------*/
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+
+.article h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 0.2em;
+}
+
+.article p:first-of-type {
+    min-width: 20em;
+    max-width: 45em;
+    line-height: 140%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    padding: 1em
+}
+
+/*-----------------Light and darkmode switcher bij gebrek aan een efficientere methode maar zonder !important-----------------*/
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+ul:first-of-type.light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+a:first-of-type.light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+a:nth-of-type(2).light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+li:first-of-type button.light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+li:nth-of-type(4) button.light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+section:nth-of-type(11) a:nth-of-type(1).light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+section:nth-of-type(11) a:nth-of-type(2).light {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+section:nth-of-type(11) a:nth-of-type(3).light {
+    background-color: white;
+    color: black;
     transition: 0.5s;
 }
