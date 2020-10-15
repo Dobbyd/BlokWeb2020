@@ -1,8 +1,7 @@
 # Procesverslag
 **Auteur:** -Maarten Veenstra-
 **Studentnummer:** -500776141-
-
-
+**Notion versie van dit proces:** [https://www.notion.so/maartenveenstragamecanon/Front-end-proces-d42c3ce1c75b428cb348a23cf67244aa](https://www.notion.so/maartenveenstragamecanon/Front-end-proces-d42c3ce1c75b428cb348a23cf67244aa)
 
 ## Bronnenlijst
 
