@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -23,12 +23,13 @@
             <ul>
                 <li><button tabindex="0"> Menu
                     </button></li>
+                <!--                tabindex zodat het selecteerbaar is, buttons zijn dit niet van zichzelf  -->
 
                 <li> <a href="index.html"> Coca-Cola Nederland </a>
                 </li>
                 <li> <a href="index.html"> Zoek </a>
                 </li>
-                <li><button tabindex="0">Theme</button></li>
+                <li><button tabindex="0" class="unhideMenu">Theme</button></li>
 
             </ul>
             <ul>
@@ -44,7 +45,7 @@
                 </li>
                 <li> <a href="index.html"> Leer ons kennen </a>
                 </li>
-                <li> <a href="index.html"> Contact en faq </a>
+                <li> <a href="index.html" class="hideMenu"> Contact en faq </a>
                 </li>
 
             </ul>
@@ -53,16 +54,77 @@
     </header>
 
     <main>
-        <img src="images/duurzaamheid-top.jpg" alt="recycling icoon in natuur">
-        <h1>A world without waste</h1>
-        <p>De zomers worden droger en warmer, de stormen worden heviger. We voelen allemaal wel dat we duurzaam moeten omgaan met onszelf, onze wereld en onze grondstoffen. Duurzaamheid staat dan ook bij Coca‑Cola bovenaan de agenda. Van kleine opruimacties rond onze fabrieken tot serieuze samenwerkingen met bijvoorbeeld het WWF proberen we onze ecologische voetafdruk zo klein mogelijk te maken en toch nog die heerlijke dranken te produceren waar iedereen dol op is. Op deze pagina's vind je meer informatie over onze doelstellingen en onze acties op dranken, verpakkingen, maatschappij en klimaat.</p>
-        <h3>This is Forward</h3>
-        <p>This is Forward. Zo heet ons groot duurzaamheidsactieplan. In het plan omschrijven we zes pijlers waarin we duidelijke doelen stellen die we tegen 2025 willen realiseren. De pijlers van This is Forward zijn acties op onze dranken, op onze verpakkingen, op de maatschappij, op het waterbeheer, op het klimaat en op de leveringsketen. De doelstellingen zijn best ambitieus en hebben grote gevolgen voor ons bedrijf en onze (ecologische) impact op onze maatschappij.</p>
+        <section>
+            <img src="images/duurzaamheid-top.jpg" alt="recycling icoon in natuur">
+            <h1 tabindex="0">A world without waste</h1>
+            <p>De zomers worden droger en warmer, de stormen worden heviger. We voelen allemaal wel dat we duurzaam moeten omgaan met onszelf, onze wereld en onze grondstoffen. Duurzaamheid staat dan ook bij Coca‑Cola bovenaan de agenda. Van kleine opruimacties rond onze fabrieken tot serieuze samenwerkingen met bijvoorbeeld het WWF proberen we onze ecologische voetafdruk zo klein mogelijk te maken en toch nog die heerlijke dranken te produceren waar iedereen dol op is. Op deze pagina's vind je meer informatie over onze doelstellingen en onze acties op dranken, verpakkingen, maatschappij en klimaat.</p>
+        </section>
 
-        <button>Lees Verder</button>
+        <section>
+            <img src="images/onze-ambities-1600x700.jpg" alt="zicht op de aarde vanuit de wolken">
+            <h2 tabindex="0">This is Forward</h2>
+            <p>This is Forward. Zo heet ons groot duurzaamheidsactieplan. In het plan omschrijven we zes pijlers waarin we duidelijke doelen stellen die we tegen 2025 willen realiseren. De pijlers van This is Forward zijn acties op onze dranken, op onze verpakkingen, op de maatschappij, op het waterbeheer, op het klimaat en op de leveringsketen. De doelstellingen zijn best ambitieus en hebben grote gevolgen voor ons bedrijf en onze (ecologische) impact op onze maatschappij.</p>
 
+            <button>Lees Verder</button>
+        </section>
 
+        <section>
+
+            <a href="article.html">
+                <h2>Dranken</h2>
+                <img src="images/dranken-900x480.jpg" alt="Blikjes coca cola van bovenaf bekeken">
+            </a>
+        </section>
+        <section>
+
+            <a href="article.html">
+                <h2>Water klimaat</h2>
+                <img src="images/water.jpg" alt="Een druppende kraan">
+            </a>
+        </section>
+        <section>
+
+            <a href="article.html">
+                <h2>Verpakkingen</h2>
+                <img src="images/verpakkingen.jpg" alt="Plastic fles op een strand waar mensen afval aan het opruimen zijn">
+            </a>
+        </section>
+        <section>
+
+            <a href="article.html">
+                <h2>Maatschappij</h2>
+                <img src="images/maatschappij.jpg" alt="Twee vriendinnen op een balkon drinken coca cola">
+            </a>
+        </section>
+        <section>
+            <h2>Bekijk ook</h2>
+            <a href="index.html">
+                <article>
+                    <img src="images/coca-cola-the-selfmade-summit-headerimage.jpg" alt="vijf vrouwen zittend in een studio">
+                    <h3>Coca-Cola x The Self-Made Summit</h3>
+                    <p>Vrouwelijke ondernemers vertellen over de kracht van openheid en kwetsbaarheid
+                    </p>
+                    <p>09 Oct 2020</p>
+                </article>
+            </a>
+            <a href="index.html">
+                <article>
+                    <img src="images/header-1-d.jpg" alt="een man en een vrouw in de keuken">
+                    <h3>Blog</h3>
+                    <p>03 Oct 2020</p>
+                </article>
+            </a>
+            <button>Bekijk meer</button>
+        </section>
     </main>
+    <footer>
+        <section>
+            <h2>Footer</h2>
+            <a href="index.html">Volg ons</a>
+            <a href="index.html">Merken</a>
+            <a href="index.html">Ontdek andere landen</a>
+        </section>
+    </footer>
 
     <script src=" scripts/script.js"></script>
 </body></html>

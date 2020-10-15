@@ -6,7 +6,7 @@
 var listTheme = document.querySelector("ul");
 var themeButton = document.querySelector("li:nth-of-type(4) > button");
 var themeButtonTwo = document.querySelector("li:first-of-type > button");
-var footerTheme = document.querySelectorAll("section:last-of-type > a");
+var footerTheme = document.querySelectorAll("footer > section > a");
 var linkTheme = document.querySelectorAll("a");
 //ik ben me bewust van het feit dat dit const moet zijn maar ik krijg parsing errors, met var werkt het wel//
 
@@ -40,9 +40,11 @@ everyBody.addEventListener("keydown", function () {
     if (event.keyCode === 9) {
         if (menuFocus === document.activeElement) {
             dropMenu.classList.add("listOn");
+            everyBody.classList.add("noScroll");
         }
         if (listGone === document.activeElement) {
             dropMenu.classList.remove("listOn");
+            everyBody.classList.remove("noScroll");
         }
 
     }
@@ -54,8 +56,11 @@ navMenu.addEventListener("click", function () {
     "use strict";
     if (dropMenu.classList.contains("listOn")) {
         dropMenu.classList.remove("listOn");
+        everyBody.classList.remove("noScroll");
+
     } else {
         dropMenu.classList.add("listOn");
+        everyBody.classList.add("noScroll");
     }
 
 
