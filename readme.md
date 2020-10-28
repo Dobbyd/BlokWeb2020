@@ -18,12 +18,20 @@
 
 ## Eindgesprek (week 8/9)
 
--dit ging goed & dit was lastig-
+**Website:**
+Gewerkt aan responsiveheid van een aantal elementen waardoor alles tenminste zichtbaar/bruikbaar is op elke schermgrootte. De site is nog steeds vooral voor een mobiel gemaakt maar de onderste section op de tweede pagina schuift niet meer onder de footer wanneer de browser te groot wordt.
 
-**Screenshot(s):**
+**Algemene reflectie voor het gesprek:**
+Ik ben naar mijn eigen mening enorm vooruit gegaan tijdens dit blok. Aan het begin wist ik nauwelijks hoe ik css selectoren moet gebruiken, en nu ben ik bekend met redelijk complexe selectoren. Waar ik ook flink heb geleerd is in de semantiek en de accessibility van code, hier dacht ik nooit over na maar mijn eindwebsite is hier (volgens mij) best wel goed mee. Javascript heeft mij altijd al redelijk goed gelegen maar het was nog steeds leuk om wat dingen te maken zoals een theme switcher en een menu dat op het switchen van focus opent. Ik vind het jammer dat ik mijn site niet volledig responsive heb kunnen maken (qua vormgeving van de sections in een grid) maar met het aantal uren dat in deze site heeft gezeten was de werkdruk te hoog geweest als ik dit ook nog had geprobeerd. Ook heb ik zeker nog veel te leren over sommige css positioning trucjes en vele andere aspecten van front-end development, maar dit project heeft voor mij gezorgd dat ik uitkijk naar het verder leren.
+
 
 -screenshot(s) van je eindresultaat-
-
+![Screenshot1](https://i.imgur.com/ecC5YOE.png)
+![Screenshot2](https://i.imgur.com/JS2lrSA.png)
+![Screenshot3](https://i.imgur.com/B4eHB8g.png)
+![Screenshot4](https://i.imgur.com/hr3wk7D.png)
+![Screenshot5](https://i.imgur.com/76jrDoq.png)
+![Screenshot6](https://i.imgur.com/2bGhktf.png)
 
 ## Vakantie (week 7)
 **Website:**
