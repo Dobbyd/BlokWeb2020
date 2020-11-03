@@ -568,7 +568,7 @@ footer section a:last-of-type.light {
     transition: 0.5s;
 }
 
-/*-----------------Responsive Article-----------------*/
+/*-----------------Responsiveness-----------------*/
 @media (min-width:740px) {
     .article main section:last-of-type {
         height: 70em;
