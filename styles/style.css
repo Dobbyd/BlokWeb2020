@@ -288,6 +288,10 @@ footer section a {
     overflow: hidden;
 }
 
+.main main section:last-of-type {
+    margin-bottom: 6em
+}
+
 a:focus h2 {
     color: #df0a1c;
     text-shadow: 2px 2px 2px #000000;
