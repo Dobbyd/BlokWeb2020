@@ -288,7 +288,7 @@ footer section a {
     overflow: hidden;
 }
 
-.main main section:last-of-type {
+.main main section:nth-of-type(9) {
     margin-bottom: 6em
 }
 
