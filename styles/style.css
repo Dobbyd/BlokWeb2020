@@ -634,6 +634,7 @@ footer section a:last-of-type.light {
 
     .main main > section a {
         top: -2em;
+        font-size: 1.5em;
     }
 
     .main div {
@@ -643,7 +644,6 @@ footer section a:last-of-type.light {
 
 
     .main section img {
-        width: 100%;
         height: 100%;
         object-fit: cover;
     }

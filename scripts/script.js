@@ -75,5 +75,4 @@ var zibit = document.querySelector(".xzibit");
 everyBody.onload = function () {
     "use strict";
     zibit.classList.add("loaded");
-
 };
